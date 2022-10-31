@@ -5,4 +5,9 @@
 # This will make sure your module will still work
 # if Magisk change its mount point in the future
 
+# camera
 setprop audio.camerasound.force false
+
+# gesture sens
+settings put secure back_gesture_inset_scale_left -1
+settings put secure back_gesture_inset_scale_right 2
